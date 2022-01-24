@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main_heading{
+    background-color: #343131;
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.final_menu{
+    background-color: black;
+}
+
+.menu_bar_one {
+    background-color: white;
+    border-radius: 4px;
+    height: 3px;
+    margin: 5px;
+    width: 37px;
+    transition: 0.4s;
+}
+
+.menu_bar_two {
+    background-color: white;
+    border-radius: 4px;
+    height: 3px;
+    margin: 5px;
+    width: 30px;
+    transition: 0.4s;
+}
+
+.menu_bar_three {
+    background-color: white;
+    border-radius: 8px;
+    height: 3px;
+    margin: 5px;
+    width: 35px;
+    transition: 0.2s;
+}
+
+.menu_1 {
+    background-color: white;
+    border-radius: 4px;
+    bottom: 7px;
+    height: 3px;
+    margin: 10px;
+    width: 30px;
+    position: relative;
+    right: 5px;
+    transform-origin: left;
+    transform: rotate(28deg);
+    top: -2px;
+}
+
+.menu_2 {
+    background-color: white;
+    border-radius: 4px;
+    bottom: 7px;
+    height: 3px;
+    margin: 10px;
+    width: 30px;
+    position: relative;
+    transform: rotate(90deg);
+    right: 19px;
+    top: 0px;
+}
+
+.menu_3 {
+    background-color: white;
+    border-radius: 8px;
+    height: 3px;
+    margin: 10px;
+    width: 30px;
+    position: relative;
+    top: 1px;
+    right: 4px;
+    transform: rotate(-30deg);
+    transform-origin: left;
+}
+
+.menu_items{
+    background-color: rgb(0, 0, 0);
+    display: none;
+    height: 100vh;
+    
+}
+
+.menu_items_container{
+    position: relative;
+    top: 20px;
+}
+
+.menu_items_list{
+    color:white;
+    display: block;
+    font-size: 30px;
+    margin: 30px;
+    text-decoration: none;
+}
+
+.menu_items_display{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about_us_heading,.our_contact{
+    display: inline-block;
+    font-size: 40px;
+    left: 38px;
+    position: relative;
+}
+
+.brand_mail_div{
+    display: flex;
+    justify-content: center;
+}
+
+.brand_mail{
+    font-size: 22px;
+}
+
+.about_us_para,.query,.social_media_heading{
+    font-size: 25px;
+    padding: 42px;
+}
+
+.social_media{
+    display: flex;
+    font-size: 23px;
+    justify-content: space-around;
+}
+
+.twitter{
+    color: #5285f7;
+}
+
+.insta{
+    color: #f33268;
+}
+
+.fb{
+    color: #3939ed;
+}
